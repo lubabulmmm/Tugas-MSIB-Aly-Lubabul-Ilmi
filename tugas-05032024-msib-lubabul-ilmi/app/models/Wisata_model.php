@@ -43,9 +43,9 @@ class Wisata_model
 
     }
 
-    public function ubahDataWisata($data)
+    public function ubahWisata($data)
     {
-        $query = "UPDATE daftar SET wisata=:wisata, deskripsi=:deskripsi, alamat=:alamat, HTM=:HTM,  WHERE id = :id   ";
+        $query = "UPDATE wisata SET wisata=:wisata, deskripsi=:deskripsi, alamat=:alamat, HTM=:HTM  WHERE id = :id     ";
         $this->db->query($query);
         $this->db->bind('wisata', $data['wisata']);
         $this->db->bind('deskripsi', $data['deskripsi']);
