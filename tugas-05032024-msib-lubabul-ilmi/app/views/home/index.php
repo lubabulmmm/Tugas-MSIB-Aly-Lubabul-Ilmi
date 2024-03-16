@@ -37,18 +37,18 @@
     <section class="bg-grey-900">
         <div section id="tentang"
             class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-            <img class="w-full" src="./assets/img/pbl_logo.png" alt="dashboard image">
+            <img class="w-full" src="<?= BASE_URL; ?>/img/batu1.png" alt="dashboard image">
             <!-- <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image"> -->
             <div class="mt-4 md:mt-0">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Tentang PBL</h2>
-                <p class="mb-6 font-light text-gray-500 md:text-lg">Pembelajaran berbasis proyek adalah metoda
-                    pembelajaran yang menggunakan proyek/kegiatan sebagai media. Peserta didik melakukan eksplorasi,
-                    penilaian, interpretasi, sintesis, dan informasi untuk menghasilkan berbagai bentuk hasil belajar.
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Kota Batu</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg">Batu dikenal sebagai salah satu kota wisata
+                    terkemuka di Indonesia, karena potensi keindahan alam yang luar biasa. Kekaguman bangsa Belanda
+                    terhadap keindahan dan keelokan alam Batu membuat wilayah kota Batu disejajarkan dengan sebuah
+                    negara di Eropa yaitu Swiss dan dijuluki sebagai De Kleine Zwitserland atau Swiss Kecil di Pulau
+                    Jawa Bersama dengan Kota Malang dan Kabupaten Malang, Kota Batu merupakan bagian dari kesatuan
+                    wilayah yang dikenal dengan Malang Raya.
                 </p>
-                <!-- <a href="#" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
-                    Get started
-                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </a> -->
+
             </div>
         </div>
     </section>
@@ -56,17 +56,3 @@
 </body>
 
 </html>
-
-
-
-<!-- <div class=”container”>
-        <div class="jumbotron mt-4">
-            <h1 class="display-4">Halo, Selamat Datang !</h1>
-            <p class="lead">Perkenalkan, saya
-            <?= $data['nama']; ?>
-            </p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class=”btn btn-primary btn-lg” href=”#” role=”button”>Learn more</a>
-        </div>
-    </div> -->
