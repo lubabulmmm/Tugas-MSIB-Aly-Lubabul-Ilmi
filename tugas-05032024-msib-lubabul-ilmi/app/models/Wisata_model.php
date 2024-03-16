@@ -57,4 +57,12 @@ class Wisata_model
         return $this->db->rowCount();
     }
 
+    public function cariDataWisata()
+    {
+        $keyword = $_POST['keyword'];
+        $query = "SELECT * FROM wisata WHERE wisata LIKE :keyword";
+        $this->db->query($query);
+        $this->db->bind('keyword', "%$keyword%");
+        return $this->db->resultAll();
+    }
 }

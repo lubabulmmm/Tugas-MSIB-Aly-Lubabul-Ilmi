@@ -43,7 +43,7 @@ class wisata extends Controller
     }
     public function getubah()
     {
-        echo json_encode($this->model('Wisata_model')->getWisataById($_POST['id']));
+        $data['wisata'] = $this->model('Wisata_model')->getWisataById($_POST['id']);
     }
 
     public function ubah()
