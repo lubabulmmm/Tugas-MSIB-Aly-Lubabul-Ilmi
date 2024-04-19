@@ -18,7 +18,7 @@ function Reg() {
     <section className="h-screen">
       <div className="flex flex-col items-center bg-teal-600 justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <a href="" className="flex text-white items-center mb-6 text-2xl font-bold text-blue-800">
-        STUD MET
+        STUDY MATH
         </a>
         <div className="w-full rounded-2xl shadow-lg md:mt-0 sm:max-w-md xl:p-0 bg-teal-900">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
